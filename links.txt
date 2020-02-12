@@ -1,0 +1,3 @@
+https://picamera.readthedocs.io/en/release-1.13/recipes2.html#web-streaming
+https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/js/default.asp
