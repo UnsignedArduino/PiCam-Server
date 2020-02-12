@@ -36,7 +36,7 @@ PAGE="""\
         <button type="button" onclick="document.getElementById('stream').style.display='block'" class="centerscr">
           Click to show the stream
         </button>
-        <img src="stream.mjpg" width="640" height="480" alt="PiCamera Stream using MJPEG" title="PiCamera Stream using MJPEG" class="centerscr" style="display:none" id="stream" />
+        <img src="stream.mjpg" width="640" height="480" alt="PiCamera Stream. If you cannot see this, go to the FAQ page linked at the bottom to find some possible fixes!" title="PiCamera Stream using MJPEG" class="centerscr" style="display:none" id="stream" />
         <button type="button" onclick="document.getElementById('stream').style.display='none'" class="centerscr">
           Click to hide the stream
         </button>
