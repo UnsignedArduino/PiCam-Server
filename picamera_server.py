@@ -33,29 +33,16 @@ PAGE="""\
               Python 3
             </a>
         </p>
-      <img src="stream.mjpg" width="640" height="480" alt="PiCamera Stream using MJPEG" title="PiCamera Stream using MJPEG" class="centerscr" />
+        <button type="button" onclick="document.getElementById('stream').style.display='block'" class="centerscr">
+          Click to show the stream
+        </button>
+        <img src="stream.mjpg" width="640" height="480" alt="PiCamera Stream using MJPEG" title="PiCamera Stream using MJPEG" class="centerscr" style="display:none" id="stream" />
         <h1 style="font-family:courier;text-align:center;">
           What is this?
         </h1>
         <p style="font-family:courier;text-align:center;">
           This is a Raspberry Pi Camera stream. The server, which is a <a href="https://www.raspberrypi.org/">Raspberry Pi</a>, streams data from the <a href="https://www.raspberrypi.org/products/camera-module-v2/">Pi Camera</a> using <a href="https://en.wikipedia.org/wiki/Motion_JPEG">MJPEG</a> to your browser, allowing you to see what the camera sees!
         </p>
-        <h1 style="font-family:courier;text-align:center;">
-          Help! I can't see the stream! And other FAQ
-        </h1>
-        <p style="font-family:courier;text-align:center;">
-          <code>
-            Q:
-          </code>
-          I can't see the stream! What do I do?
-        </p>
-        <p style="font-family:courier;text-align:center;">
-          <code>
-            A:
-          </code>
-        <h1 style="font-family:courier;text-align:center;">
-          Stats, models, and versions
-        </h1>
     </body>
 </html>
 """
