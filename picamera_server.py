@@ -37,6 +37,9 @@ PAGE="""\
           Click to show the stream
         </button>
         <img src="stream.mjpg" width="640" height="480" alt="PiCamera Stream using MJPEG" title="PiCamera Stream using MJPEG" class="centerscr" style="display:none" id="stream" />
+        <button type="button" onclick="document.getElementById('stream').style.display='none'" class="centerscr">
+          Click to hide the stream
+        </button>
         <h1 style="font-family:courier;text-align:center;">
           What is this?
         </h1>
